@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif, 'Poppins';
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+li {
+  list-style: none ;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-user {
+  width: 100%;
+  height: auto;
+  background-image: url("images/bg-pattern-2.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 30px;
+  margin-bottom: 0;
+
+}
+#site-user .grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto auto;
+  ackground-color: rgb(172, 172, 172);
+}
+#site-user .circle-container {
+  width: 300px;
+  height:300px;
+  border-radius: 60%;
+  border: 2px solid white; 
+  justify-self: end; 
+}
+#site-user img {
+  border: 10px #fff solid;
+  border-radius: 100%;
+  width: 400px;
+  
+}
+
+#site-header {
+  padding: 30px 0;
+  color: white;
+  background: #111;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* ---- components ---- */
+
+.button {
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+.button-alt {
+  color: blue;
+  background-color: #fff;
+}
+
+/* ---- section ---- */
+
+section.testimonials {
+  // ...
+}
+
+section.testimonials .button {
+  margin-bottom: 10px;
+}
