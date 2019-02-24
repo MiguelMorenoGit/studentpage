@@ -11,29 +11,23 @@
   </head>
 
   <body>
-    <section id="site-user">
-      <div class="grid">
-        <div class="circle-container">
-            <img src="images/miguel2.png" alt="Miguel picture">
-        </div>
+    <section id="header-nav" class="container">
+      <div id="header">
+        <img src="images/miguel2.png" alt="Miguel picture">
         <div>
           <h1>Hi. I'm Miguel Angel Moreno</h1>
           <p>I am a developer based in Barcelona</p>
         </div>
       </div>
-    </section>
-    <nav id="nav">
-      <div>
-        <a href="#">home</a>
-      </div>
-      <div>
+      <nav id="nav-bar">
         <ul>
+          <li><a href="#home">home</a></li>
           <li><a href="#aboutMe">About me</a></li>
           <li><a href="#interests">Interests</a></li>
           <li><a href="#projects">Projects</a></li>
-        </ul>
-      </div>
-    </nav>
+        </ul>        
+      </nav>   
+    </section>
     <main>
       <section id="aboutMe">
         <div>
@@ -61,36 +55,24 @@
         </div>
       </section>
       <section id="projects">
-        <div>
+        <div class="flex-row">
           <h2>Projects</h2>
         </div>
-        <div>
-          <article>
-            <img
-              src="https://www.mobygames.com/images/covers/l/16093-super-mario-bros-3-nes-front-cover.jpg"
-              alt="super mario bros 3 image"
-              width="200"
-            />
-            <h4>Super Mario Bros. 3</h4>
-            <p>diseñador de niveles junior junto a Shigero Miyamoto</p>
+        <div class="flex-row">
+          <article class="flex-column">
+            <img src="./images/pig-radius_1.png" alt="pig radius image"/>
+            <h4>PIG-radius wars</h4>
+            <p>videojuego arcade 1er projecto en Ironhack</p>
           </article>
-          <article>
-            <img
-              src="https://www.mobygames.com/images/covers/l/187138-red-dead-redemption-xbox-360-front-cover.jpg"
-              alt="red dead redemption 2 image"
-              width="200"
-            />
-            <h4>Red Dead Redemption </h4>
-            <p>diseñador jefe de un vaquero en Red Dead Redemption </p>
+          <article class="flex-column">
+            <img src="./images/projecto mercado.png" alt="market project"/>
+            <h4>Mercado municipal de bellvitge </h4>
+            <p>reforma y ampliacion del mercado y la escuela de musica de bellvitge</p>
           </article>
-          <article>
-            <img
-              src="https://www.mobygames.com/images/covers/l/16097-tetris-nes-front-cover.jpg"
-              alt="tetris image"
-              width="200"
-            />
-            <h4>Tetris</h4>
-            <p>diseñador de la "Z" hacia la derecha del Tetris</p>
+          <article class="flex-column">
+            <img src="./images/reforma 1.png" alt="reforma barcelona"/>
+            <h4>Reforma en Barcelona</h4>
+            <p>reforma integral de una vivienda en barcelona</p>
           </article>
         </div>
       </section>
